@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 var dns = require("dns");
 
 // Setup MongoDB
-process.env.MONGO_URI = "yourMongoDbAuthentication";
+process.env.MONGO_URI = "YourMongoDBAuthentication";
 var db = mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
